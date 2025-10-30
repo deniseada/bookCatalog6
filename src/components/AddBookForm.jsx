@@ -41,6 +41,7 @@ function AddBookForm({ add, closeModal, book = null }) {
             type="text"
             placeholder="Book Title.."
             defaultValue={book?.title || ""}
+            required
           />
         </div>
         <div className="form-control">
@@ -50,6 +51,7 @@ function AddBookForm({ add, closeModal, book = null }) {
             type="text"
             placeholder="Author.."
             defaultValue={book?.author || ""}
+            required
           />
         </div>
         <div className="form-control">
